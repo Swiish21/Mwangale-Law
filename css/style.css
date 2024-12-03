@@ -1008,4 +1008,20 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #2c7873;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
