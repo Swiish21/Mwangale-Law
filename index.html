@@ -385,41 +385,40 @@
             <div class="heading_container heading_center">
               <h2>Get In Touch</h2>
             </div>
-            <form action="">
+            <form action="mailto:nasieden0@gmail.com" method="POST" enctype="text/plain">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" />
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
+                  <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
                 </div>
                 <div class="form-group col-lg-6">
-                  <select name="" id="" class="form-control wide">
+                  <select name="service" id="" class="form-control wide">
                     <option value="">Select Service</option>
-                    <option value="">General Inquiry</option>
-                    <option value="">Legal Services</option>
-                    <option value="">Other</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Legal Services">Legal Services</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" name="email" class="form-control" placeholder="Email" />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
+                  <textarea name="message" class="form-control" placeholder="Message"></textarea>
                 </div>
               </div>
               <div class="btn_box">
-                <a href="mailto:workwithdjmalcom@gmail.com">
-                  <button>Send</button>
-              </a>
+                <button type="submit">Send</button>
               </div>
             </form>
+            
           </div>
         </div>
       </div>
